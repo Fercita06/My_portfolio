@@ -1,12 +1,36 @@
 $primary-color:black;
 $secondary-color:white;
+$primary-font-family:
 
 
-*{
-  width:390px;
-}
 
 body{
   background-color: $primary-color;
   color: $secondary-color;
+  width: 390px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.box1{
+
+  &__my-name{
+    width: 148px;
+    height: 29px;
+    font-size: 24px;
+    font-family:'Cormorant', serif;
+   }
+   &__menu-icon{
+     background-color: $primary-color;
+     width:18px;
+     height: 1px;
+     margin-bottom: 34px;
+     margin-left: 335px;
+   }
+   &__heading{
+
+   }
+
+
+
 }

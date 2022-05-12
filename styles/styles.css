@@ -1,8 +1,21 @@
-* {
-  width: 390px;
-}
-
 body {
   background-color: black;
   color: white;
+  width: 390px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.box1__my-name {
+  width: 148px;
+  height: 29px;
+  font-size: 24px;
+  font-family: "Cormorant", serif;
+}
+.box1__menu-icon {
+  background-color: black;
+  width: 18px;
+  height: 1px;
+  margin-bottom: 34px;
+  margin-left: 335px;
 }/*# sourceMappingURL=styles.css.map */
