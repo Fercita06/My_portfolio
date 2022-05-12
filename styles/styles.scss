@@ -1,6 +1,7 @@
 $primary-color:black;
 $secondary-color:white;
 $primary-font-family:'Cormorant', serif;
+$secondary-font-family:
 
 
 
@@ -10,6 +11,7 @@ body{
   width: 390px;
   margin-top: 20px;
   margin-left: 30px;
+
 }
 
 .box1{
@@ -19,23 +21,27 @@ body{
     height: 29px;
     font-size: 24px;
     font-family:$primary-font-family;
+    
+   
    }
    &__menu-icon{
      background-color: $primary-color;
      width:18px;
      height: 1px;
      margin-bottom: 34px;
-     margin-left: 320px;
+     margin-left: 280px;
    }
    &__heading{
       font-family: $primary-font-family;
-      width:3px;
+      width:340px;
       height: 200px;
       margin-top: 20px;
+      color:pink;
 
    }
    &__first-paragraph{
-     widt
+     width:300px;
+     
    }
 
 

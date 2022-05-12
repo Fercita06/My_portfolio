@@ -17,14 +17,15 @@ body {
   width: 18px;
   height: 1px;
   margin-bottom: 34px;
-  margin-left: 335px;
+  margin-left: 280px;
 }
 .box1__heading {
   font-family: "Cormorant", serif;
-  width: 335px;
-  height: 288px;
+  width: 340px;
+  height: 200px;
   margin-top: 20px;
+  color: pink;
 }
 .box1__first-paragraph {
-  width: 320px;
+  width: 300px;
 }/*# sourceMappingURL=styles.css.map */
