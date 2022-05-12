@@ -22,10 +22,18 @@ body {
 .box1__heading {
   font-family: "Cormorant", serif;
   width: 340px;
-  height: 200px;
+  height: auto;
   margin-top: 20px;
   color: pink;
 }
 .box1__first-paragraph {
   width: 300px;
+  height: auto;
+  font-family: "Inter", sans-serif;
+}
+
+.box2__title2 {
+  width: 177px;
+  height: 51px;
+  margin-top: 50px;
 }/*# sourceMappingURL=styles.css.map */

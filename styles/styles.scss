@@ -1,7 +1,7 @@
 $primary-color:black;
 $secondary-color:white;
 $primary-font-family:'Cormorant', serif;
-$secondary-font-family:
+$secondary-font-family:'Inter', sans-serif;
 
 
 
@@ -34,15 +34,22 @@ body{
    &__heading{
       font-family: $primary-font-family;
       width:340px;
-      height: 200px;
+      height: auto;
       margin-top: 20px;
       color:pink;
-
    }
    &__first-paragraph{
      width:300px;
+     height: auto;
+     font-family: $secondary-font-family,
      
    }
+}
 
-
+.box2{
+  &__title2{
+    width:177px;
+    height: 51px;
+    margin-top: 50px;
+  }
 }
