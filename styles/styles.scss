@@ -47,9 +47,17 @@ body{
 }
 
 .box2{
+ 
+
   &__title2{
     width:177px;
     height: 51px;
     margin-top: 50px;
+   
+  }
+  &__menu-icon{
+    width: 16px;
+    height: 15px;
+   
   }
 }
