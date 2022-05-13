@@ -14,36 +14,34 @@ body{
 
 }
 
-.box1{
+.box1 {
 
   &__my-name{
     width: 140px;
     height: 29px;
     font-size: 24px;
     font-family:$primary-font-family;
+  }
+  &__menu-icon{
+    background-color: $primary-color;
+    width:18px;
+    height: 1px;
+    margin-bottom: 34px;
+    margin-left: 280px;
+  }
+  &__heading{
+    font-family: $primary-font-family;
+    width:340px;
+    height: auto;
+    margin-top: 20px;
+    color:pink;
+  }
+  &__first-paragraph{
+    width:300px;
+    height: auto;
+    font-family: $secondary-font-family,
     
-   
-   }
-   &__menu-icon{
-     background-color: $primary-color;
-     width:18px;
-     height: 1px;
-     margin-bottom: 34px;
-     margin-left: 280px;
-   }
-   &__heading{
-      font-family: $primary-font-family;
-      width:340px;
-      height: auto;
-      margin-top: 20px;
-      color:pink;
-   }
-   &__first-paragraph{
-     width:300px;
-     height: auto;
-     font-family: $secondary-font-family,
-     
-   }
+  }
 }
 
 .box2{
@@ -60,11 +58,25 @@ body{
   }
 }
 
-.project1{
-  &__img1{
-    width: 300px;
-    height: 120px;
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+.project {
+  
+  &__img1 {
+    // width: 300px;
+    // height: 120px;
+    width: 100%;
     background-color:#3B3636;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__project__buttons {
+    
   }
 
   &__link1{
