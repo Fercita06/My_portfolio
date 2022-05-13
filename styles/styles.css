@@ -47,6 +47,15 @@ body {
   flex-direction: column;
 }
 
+.underline {
+  color: #D9BEA5;
+  width: 50px;
+  float: left;
+}
+
+.project {
+  margin-bottom: 30px;
+}
 .project__img1 {
   width: 100%;
   background-color: #3B3636;
@@ -54,6 +63,21 @@ body {
 .project__img1 img {
   width: 100%;
   height: auto;
+}
+.project__buttons {
+  width: 100%;
+  overflow: hidden;
+}
+.project__buttons .project__link1 {
+  font-size: 30px;
+  float: left;
+}
+.project__buttons .project__link2, .project__buttons .project__link3 {
+  float: right;
+}
+.project__buttons .project__link2 img, .project__buttons .project__link3 img {
+  width: auto;
+  height: 15px;
 }
 .project__link1 {
   font-family: "Cormorant", serif;
