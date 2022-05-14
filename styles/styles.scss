@@ -8,10 +8,9 @@ $secondary-font-family:
 body{
   background-color: $primary-color;
   color: $secondary-color;
-  width: 390px;
-  margin-top: 20px;
-  margin-left: 30px;
-
+  //width: 390px;
+  padding: 20px 20px;
+  margin:0 auto;
 }
 
 .box1{
@@ -21,8 +20,7 @@ body{
     height: 29px;
     font-size: 24px;
     font-family:$primary-font-family;
-    
-   
+
    }
    &__menu-icon{
      background-color: $primary-color;
@@ -41,8 +39,90 @@ body{
    }
    &__first-paragraph{
      width:300px;
+    }
+  }
+  
+   .box2{
+    &__title2{
+      width:177px;
+      height: 51px;
+      margin-top: 50px;
      
-   }
+    }
+    &__menu-icon{
+      width: 16px;
+      height: 15px;
+     
+    }
+  }
+  
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .underline {
+    color: #D9BEA5;
+    width: 50px;
+    float: left;
+  }
 
-
+  .project-container{
+    display: flex;
+    flex-direction:column;
+  
+  
+      .project {
+        margin-bottom: 30px;
+        &__img1 {
+          width: 100%;
+          background-color:#3B3636;
+          img {
+            width: 100%;
+            height: auto;
+      }
+    }
+  
+    &__buttons {
+      width: 100%;
+      overflow: hidden;
+      .project__link1 {
+        font-size: 30px;
+        float: left;
+      }
+      .project__link2, .project__link3 {
+        float: right;
+        img {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+  
+    
+  }
+  
 }
+
+@media screen and (min-width: 700px) {
+  body{
+    width:
+
+  }
+  .project{
+    display:flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  body{
+
+  }
+}
+
+
+//&__link1{
+// font-family: $primary-font-family;
+//  width: 150px;
+//}
