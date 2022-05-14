@@ -22,10 +22,64 @@ body {
 .box1__heading {
   font-family: "Cormorant", serif;
   width: 340px;
-  height: 200px;
+  height: auto;
   margin-top: 20px;
   color: pink;
 }
 .box1__first-paragraph {
   width: 300px;
+  height: auto;
+  font-family: "Inter", sans-serif;
+}
+
+.box2__title2 {
+  width: 177px;
+  height: 51px;
+  margin-top: 50px;
+}
+.box2__menu-icon {
+  width: 16px;
+  height: 15px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.underline {
+  color: #D9BEA5;
+  width: 50px;
+  float: left;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+.project__img1 {
+  width: 100%;
+  background-color: #3B3636;
+}
+.project__img1 img {
+  width: 100%;
+  height: auto;
+}
+.project__buttons {
+  width: 100%;
+  overflow: hidden;
+}
+.project__buttons .project__link1 {
+  font-size: 30px;
+  float: left;
+}
+.project__buttons .project__link2, .project__buttons .project__link3 {
+  float: right;
+}
+.project__buttons .project__link2 img, .project__buttons .project__link3 img {
+  width: auto;
+  height: 15px;
+}
+.project__link1 {
+  font-family: "Cormorant", serif;
+  width: 150px;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,7 @@
 $primary-color:black;
 $secondary-color:white;
 $primary-font-family:'Cormorant', serif;
-$secondary-font-family:
+$secondary-font-family:'Inter', sans-serif;
 
 
 
@@ -13,7 +13,7 @@ body{
   margin:0 auto;
 }
 
-.box1{
+.box1 {
 
   &__my-name{
     width: 140px;
@@ -121,6 +121,11 @@ body{
   }
 }
 
+.underline {
+  color: #D9BEA5;
+  width: 50px;
+  float: left;
+}
 
 //&__link1{
 // font-family: $primary-font-family;
