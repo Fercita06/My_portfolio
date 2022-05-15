@@ -32,19 +32,21 @@ body{
    &__heading{
       font-family: $primary-font-family;
       width:340px;
-      height: 200px;
+      height: auto;
       margin-top: 20px;
       color:pink;
 
    }
    &__first-paragraph{
      width:300px;
+     height: auto;
+     font-family: $secondary-font-family;
     }
   }
   
    .box2{
     &__title2{
-      width:177px;
+      //width:177px;
       height: 51px;
       margin-top: 50px;
      
@@ -56,10 +58,6 @@ body{
     }
   }
   
-  .project-container {
-    display: flex;
-    flex-direction: column;
-  }
   
   .underline {
     color: #D9BEA5;
@@ -67,16 +65,16 @@ body{
     float: left;
   }
 
-  .project-container{
+  .project-container {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+  }
   
-  
-      .project {
-        margin-bottom: 30px;
-        &__img1 {
-          width: 100%;
-          background-color:#3B3636;
+  .project {
+      margin-bottom: 30px;
+      &__img1 {
+        width: 100%;
+        background-color:#3B3636;
           img {
             width: 100%;
             height: auto;
@@ -100,13 +98,13 @@ body{
     }
   
     
-  }
-  
 }
+  
+
 
 @media screen and (min-width: 700px) {
   body{
-    width:
+    
 
   }
   .project{
@@ -127,7 +125,7 @@ body{
   float: left;
 }
 
-//&__link1{
-// font-family: $primary-font-family;
-//  width: 150px;
-//}
+/*&__link1{
+ font-family: $primary-font-family;
+  width: 150px;
+}*/
