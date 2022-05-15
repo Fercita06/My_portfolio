@@ -80,6 +80,7 @@ body {
 .box3__about {
   font-family: "Cormorant", serif;
   font-size: 25px;
+  padding-bottom: 0;
 }
 .box3__paragraph2 {
   width: 300px;
@@ -88,6 +89,30 @@ body {
 }
 .box3__my-image {
   width: 329px;
+}
+
+.box4__interest-title {
+  font-size: 24px;
+  font-family: "Cormorant", serif;
+}
+.box4__experience-list {
+  display: flex;
+  flex-direction: row;
+}
+.box4__links {
+  color: white;
+}
+.box4__plus-icon {
+  width: 15px;
+  height: 10px;
+  background-color: black;
+}
+
+.contact__contact-title {
+  font-family: "Cormorant", serif;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (min-width: 700px) {

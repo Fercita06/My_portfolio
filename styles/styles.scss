@@ -102,7 +102,9 @@ body{
 .box3{
   &__about{
     font-family: $primary-font-family; 
-    font-size: 25px;
+    font-size: 30px;
+    padding-bottom: 0;
+    
   }
 
   &__paragraph2{
@@ -117,9 +119,55 @@ body{
 }
 
 .box4{
+   
+
+  &__interest-title{
+    font-size: 24px;
+    font-family: $primary-font-family;
+  }
+
+  &__experience-list{
+    display:flex;
+    flex-direction: row;
+  }
+ 
+
+  &__links{
+    color: $secondary-color
+     }
+
+  }
+
+  &__plus-icon{
+    width: 15px;
+    height: 10px;
+    background-color: $primary-color;
+  
+  }
+
+
+
+.contact{
+
+  &__contact-title{
+  font-family: $primary-font-family;
+  font-size: 50px;
+  display:flex;
+  align-items: center;
   
 }
 
+}
+
+.footer{
+
+  &__links-footer{
+    width: 28px;
+    height: 28px;
+    padding-left: 2px;
+
+  }
+}
 
 
 
