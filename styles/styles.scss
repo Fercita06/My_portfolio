@@ -31,10 +31,9 @@ body{
    }
    &__heading{
       font-family: $primary-font-family;
-      width:340px;
-      height: auto;
+      font-size: 65px;
       margin-top: 20px;
-      color:pink;
+      color: $secondary-color;
 
    }
    &__first-paragraph{
@@ -47,7 +46,7 @@ body{
    .box2{
     &__title2{
       //width:177px;
-      height: 51px;
+     font-size: 25px;
       margin-top: 50px;
      
     }
@@ -100,6 +99,28 @@ body{
     
 }
   
+.box3{
+  &__about{
+    font-family: $primary-font-family; 
+    font-size: 25px;
+  }
+
+  &__paragraph2{
+    width: 300px;
+    height: auto;
+    font-family: $secondary-font-family;
+  }
+
+  &__my-image{
+    width: 329px;
+  }
+}
+
+.box4{
+  
+}
+
+
 
 
 @media screen and (min-width: 700px) {
