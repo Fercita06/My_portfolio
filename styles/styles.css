@@ -7,8 +7,8 @@ body {
 
 .box1__my-name {
   width: 140px;
-  height: 29px;
-  font-size: 24px;
+  height: 32px;
+  font-size: 30px;
   font-family: "Cormorant", serif;
 }
 .box1__menu-icon {
@@ -31,6 +31,7 @@ body {
 .box2__title2 {
   font-size: 25px;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 .box2__menu-icon {
   width: 16px;
@@ -54,10 +55,13 @@ body {
 .project__img1 {
   width: 100%;
   background-color: #3B3636;
+  height: 187px;
+  margin-bottom: 20px;
 }
 .project__img1 img {
   width: 100%;
   height: auto;
+  padding-bottom: 15px;
 }
 .project__buttons {
   width: 100%;
@@ -72,7 +76,10 @@ body {
 }
 .project__buttons .project__link2 img, .project__buttons .project__link3 img {
   width: auto;
-  height: 15px;
+  height: 20px;
+  padding-right: 10px;
+  background-color: #3B3636;
+  border: 2px solid black;
 }
 
 h3 {
@@ -84,9 +91,6 @@ h3 {
 
 h2 {
   margin-bottom: 0;
-  font-family: "Cormorant", serif;
-  font-size: 15px;
-  padding-bottom: 0;
 }
 
 .box3__paragraph2 {
