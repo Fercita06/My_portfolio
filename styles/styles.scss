@@ -2,6 +2,7 @@ $primary-color:black;
 $secondary-color:white;
 $primary-font-family:'Cormorant', serif;
 $secondary-font-family:'Inter', sans-serif;
+$third-color:#D9BEA5;
 
 
 
@@ -94,18 +95,21 @@ body{
       }
     }
   
-    
 }
 
 h3{
   margin-bottom: 0;
   font-family: $primary-font-family; 
-  font-size: 30px;
+  font-size: 25px;
   padding-bottom: 0;
 }
 
 h2{
   margin-bottom: 0;
+  font-family: $primary-font-family; 
+  font-size: 15px;
+  padding-bottom: 0;
+
 }
   
 .box3{
@@ -157,18 +161,21 @@ h2{
   &__contact-title{
   font-family: $primary-font-family;
   font-size: 50px;
- text-align: center;
+  text-align: center;
   
   } 
 
 .cta-button{
   text-decoration: none;
   padding:15px;
-  border: 1px solid black;
-  background-color: $secondary-color;
+  border: 1px solid $third-color;
+  background-color: $primary-color;
   margin: 20px auto;
   display: block;
-  width: 150px;
+  width: 100px;
+  color: $secondary-color;
+  text-align: center;
+  
   }
 
 }
@@ -176,6 +183,8 @@ h2{
 .footer{
   display: flex;
   justify-content: center;
+
+
 
   &__links-footer{
     margin:0 10px;

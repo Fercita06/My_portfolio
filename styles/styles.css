@@ -78,12 +78,15 @@ body {
 h3 {
   margin-bottom: 0;
   font-family: "Cormorant", serif;
-  font-size: 30px;
+  font-size: 25px;
   padding-bottom: 0;
 }
 
 h2 {
   margin-bottom: 0;
+  font-family: "Cormorant", serif;
+  font-size: 15px;
+  padding-bottom: 0;
 }
 
 .box3__paragraph2 {
@@ -124,11 +127,13 @@ h2 {
 .contact .cta-button {
   text-decoration: none;
   padding: 15px;
-  border: 1px solid black;
-  background-color: white;
+  border: 1px solid #D9BEA5;
+  background-color: black;
   margin: 20px auto;
   display: block;
-  width: 150px;
+  width: 100px;
+  color: white;
+  text-align: center;
 }
 
 .footer {
